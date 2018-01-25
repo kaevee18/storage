@@ -23,3 +23,15 @@ $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
   include $local_settings;
 }
+$databases['default']['default'] = array (
+  'database' => 'college',
+  'username' => 'root',
+  'password' => 'ameex',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['hash_salt'] = 'dwAwCdEXzjg2pp8ybGb2KZ5Pb-TNB5VFZzpz4c49HM2v-81Xgcg9NeFk5xgb1muG5Gkz16IeLw';
+$settings['install_profile'] = 'standard';
