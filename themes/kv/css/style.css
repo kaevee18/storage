@@ -1,0 +1,77 @@
+.bottomfirst
+{
+    float: left;
+    width: 50%;
+    height: 690px;
+}
+.bottomsecond
+{
+    float: left;
+    width: 50%;
+    height: 690px;
+}
+.views-field .views-field-field-exp-image img
+{
+    width: 325px;
+}
+.navbar-nav.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-nav.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+.navbar-nav.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-nav.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbar-nav.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-nav.dropdown a:hover 
+{
+    background-color: #f1f1f1
+}
+
+.navbar-nav.show 
+{
+    display:block;
+}
+body
+{
+    background-color: lightgrey;
+}
+
+.table .table-hover .table-striped img{
+    height: 150px;
+    width: 1000px;
+}
+.field .field--name-field-image .field--type-image .field--label-hidden .field--item{
+    width: 1190px;
+    height: 420px;
+}
+.views-field .views-field-field-leaderpic .img-responsive
+{
+    height: 150px;
+    width: 150px;
+}
